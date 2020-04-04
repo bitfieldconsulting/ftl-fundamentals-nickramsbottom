@@ -37,8 +37,8 @@ We first of all set up the `struct` type for our test case:
 
 ```go
 struct {
-		a, b int
-		want int
+	a, b int
+	want int
 }
 ```
 
