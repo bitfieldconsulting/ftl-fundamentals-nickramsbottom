@@ -20,7 +20,7 @@ func TestAdd(t *testing.T) {
 	}{
 		{a: 1, b: 1, want: 2},
 		{a: 2, b: 2, want: 4},
-		{a: 6, b: 7, want: 12},
+		{a: 6, b: 7, want: 13},
 	}
 	for _, testCase := range testCases {
 		got := calculator.Add(testCase.a, testCase.b)
@@ -50,7 +50,7 @@ Now we go on to supply a slice of test case literals that have this structure:
 {
 	{a: 1, b: 1, want: 2},
 	{a: 2, b: 2, want: 4},
-	{a: 6, b: 7, want: 12},
+	{a: 6, b: 7, want: 13},
 }
 ```
 
