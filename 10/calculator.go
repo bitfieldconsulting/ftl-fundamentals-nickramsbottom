@@ -20,7 +20,7 @@ func Multiply(a, b int) int {
 // Divide two numbers
 func Divide(a, b int) (int, error) {
 	if b == 0 {
-		return 0, errors.New("cannot divide by zero")
+		return 0, fmt.Errorf("division by zero: %d, %d", a, b)
 	}
 	return a / b, nil
 }
