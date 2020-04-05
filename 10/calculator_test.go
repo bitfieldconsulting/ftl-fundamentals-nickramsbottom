@@ -99,7 +99,7 @@ func TestDivide(t *testing.T) {
 		got, err := calculator.Divide(testCase.a, testCase.b)
 
 		if err == nil && testCase.errExpected {
-			t.Errorf("Expected error for Divide(%d, %d)", testCase.a, testCase.b)
+			t.Fatalf("Expected error for Divide(%d, %d)", testCase.a, testCase.b)
 		}
 
 		if testCase.want != got {
