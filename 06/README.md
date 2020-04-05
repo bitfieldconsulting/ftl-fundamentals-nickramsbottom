@@ -2,6 +2,8 @@ Now that you've written a function to pass a given test, and written a test for 
 
 Create a file called `hello_test.go`, and write a test called TestHello, just like in previous exercises. Have it call the `Greeting()` function, and expect the result `"Howdy, Gopherinos!"`.
 
+// Why is the test function exported?
+
 It should fail, because we haven't implemented `Greeting` yet:
 
 ```
